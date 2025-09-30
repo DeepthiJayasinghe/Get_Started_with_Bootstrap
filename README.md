@@ -1,6 +1,6 @@
 # Get_Started_with_Bootstrap
 
-I've analyzed your Bootstrap project. This is a landing page for a fullstack development bootcamp with a clean, responsive layout using Bootstrap 5.3.8. Here's what I found:
+This is a landing page for a fullstack development bootcamp with a clean, responsive layout using Bootstrap 5.3.8. 
 
 ## Structure Overview
 
@@ -29,9 +29,9 @@ The layout uses Bootstrap's grid system effectively:
 - FAQ: `col-8` (centered, but might be too wide on mobile - should probably be `col-12 col-md-8`)
 
 **Custom CSS:**
-Your `app.css` extends Bootstrap's margin utilities (mb-6 through mb-12), which is useful but creates an inconsistency with Bootstrap's standard scale.
+`app.css` extends Bootstrap's margin utilities (mb-6 through mb-12), which is useful but creates an inconsistency with Bootstrap's standard scale.
 
-Your Bootstrap project doesn't need "installation" in the traditional sense - it's a static website that runs directly in a web browser. Here's how to use it:
+This Bootstrap project doesn't need "installation" in the traditional sense - it's a static website that runs directly in a web browser. Here's how to use it:
 To Run It Locally:
 
 Make sure you have all the files:
@@ -49,8 +49,11 @@ Right-click → "Open with" → choose your web browser
 
 
 That's it. The page will load in your browser.
+
 Why No Installation Needed:
 Your project uses CDN links for Bootstrap and Bootstrap Icons:
-html<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" ...>
+
+html
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" ...>
 This means Bootstrap loads from the internet, so you don't need to install anything locally.
 
